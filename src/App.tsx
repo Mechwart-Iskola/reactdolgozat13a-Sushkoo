@@ -1,11 +1,11 @@
-import ProductCard from "./ProductCard";
 import "./App.css";
+import Termekkereso from "./components/Termekkereso";
 
 function App() {
   return (
     <div>
       <h1>Product Information</h1>
-      <ProductCard />
+      <Termekkereso></Termekkereso>
     </div>
   );
 }
